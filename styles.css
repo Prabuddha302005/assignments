@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 45px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+ul{
+    gap: 30px;
+    margin-left: 12px;
+     display: flex;
+     padding: 12px;
+}
+.navbar ul li{
+    list-style: none;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li:hover{
+    color: grey;
+}
+.div1{
+    
+    width: 22%;
+    float: left;
+    border: 2px solid black;   
+    border-radius: 12px;                                                             
+
+}
+.div2{
+    
+    width: 25%;
+    float: left;
+    border: 2px solid black;  
+    border-radius: 12px;
+    
+
+}
+.div3{
+    
+    width: 22%;
+    float: left;
+    border: 2px solid black;  
+    border-radius: 12px;
+}
+.div4{
+    
+    width: 22%;
+    float: left;
+    border: 2px solid black;  
+    border-radius: 12px;
+
+}
+
+
+
+.main > div{
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    text-align: center;
+    /* background-color: rgb(120, 180, 233); */
+    background-color: white;
+    
+    /* background-color: cornflowerblue; */
+}
+
+.main {
+    /* background-color: rgb(255, 247, 247); */
+    background-color: #d4d3d1;
+    /* background-color: rgb(212, 189, 255); */
+    height: 350px;
+   border-radius: 10px;
+}
+
+.images{
+    /* background-color: rgb(236, 255, 131); */
+    height: 460px;
+    border-radius: 10px;
+}
+
+.images > div{
+    background-color: aliceblue;
+}
+
+.audio{
+    background-color: wheat;
+    height: 100px;
+    border-radius: 10px;
+}
+.video{
+    /* background-color: black; */
+    height: 400px;
+    border-radius: 10px;
+}
+.img1{
+    width: 22%;
+    border: 2px solid black; 
+    float: left;
+    border-radius: 22px;
+}
+.img2{
+    width: 22%;
+    border: 2px solid black; 
+    float: left;
+    border-radius: 22px;
+    
+}
+.img3{
+    width: 22%;
+    border: 2px solid black; 
+    float: left;
+    border-radius: 22px;
+}
+.img4{
+    width: 22%;
+    border: 2px solid black; 
+    float: left;
+    border-radius: 22px;
+}
+.img1 > img{
+    width: 100%;
+    object-fit: cover;
+    /* aspect-ratio: 2/2; */
+    border-radius: 20px;
+    /* border: 2px solid black;  */
+}
+.img2 > img{
+    width: 100%;
+    object-fit: cover;
+    /* aspect-ratio: 2/2; */
+    border-radius: 20px;
+    /* border: 2px solid black;  */
+}
+.img3 > img{
+    width: 100%;
+    object-fit: cover;
+    /* aspect-ratio: 2/2; */
+    border-radius: 20px;
+    /* border: 2px solid black;  */
+}
+.img4 > img{
+    width: 100%;
+    object-fit: cover;
+    /* aspect-ratio: 1/1; */
+    border-radius: 20px;
+    /* border: 2px solid black;  */
+}
+
+.images > div{
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    text-align: center;
+}
+
+.audio > div{
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    text-align: center;
+}
+
+.audio1{
+    width: 22%;
+    float: left;
+    /* border: 2px solid black;   */
+    border-radius: 12px;
+}
+.audio2{
+    width: 22%;
+    float: left;
+    /* border: 2px solid black;   */
+    border-radius: 12px;
+}
+.audio3{
+    width: 22%;
+    float: left;
+    /* border: 2px solid black;   */
+    border-radius: 12px;
+}
+.audio4{
+    width: 22%;
+    float: left;
+    /* border: 2px solid black;   */
+    border-radius: 12px;
+}
+
+.video1{
+    width: 22%;
+    float: left;
+    /* border: 2px solid black;   */
+    border-radius: 12px;
+}
+.video2{
+    width: 22%;
+    float: left;
+    /* border: 2px solid black;   */
+    border-radius: 12px;
+}
+.video3{
+    width: 22%;
+    float: left;
+    /* border: 2px solid black;   */
+    border-radius: 12px;
+}
+.video4{
+    width: 22%;
+    float: left;
+    /* border: 2px solid black;   */
+    border-radius: 12px;
+}
+
+.video1 > video{
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border-radius: 8px;
+}
+.video2 > video{
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border-radius: 8px;
+}
+.video3 > video{
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border-radius: 8px;
+}
+.video4 > video{
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border-radius: 8px;
+}
+
+.video > div{
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.heading > h1{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+
+.heading{
+    margin-bottom: 12px;
+    margin-top: 50px;
+}
